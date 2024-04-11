@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfólio</title>
+</head>
+<body>
+  <!--Inicio do cabecalho-->
+  <header class="cabecalho">
+    <nav class="nav-bar">
+      <h1 class="titulo">André Moreira</h1>
+      <!--hamburguer mobile-->
+      <div class="hamburguer" onclick="animar()" id="btn-menu">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+      <!--menu Desktop-->
+      <ul class="menu-desk">
+        <li class="nav-list"><a href="" class="nav-link">Inicio</a></li>
+        <li class="nav-list"><a href="" class="nav-link">Sobre mim</a></li>
+        <li class="nav-list"><a href="" class="nav-link">Habilidades</a></li>
+        <li class="nav-list"><a href="" class="nav-link">Projetos</a></li>
+        <li class="nav-list"><a href="" class="nav-link">Contato</a></li>
+      </ul>
+      
+      <!--menu despositivo moveis-->
+      <ul id="menu" class="menu-mobile">
+        <li class="nav-list"><a href="" class="nav-link">Inicio</a></li>
+        <li class="nav-list"><a href="" class="nav-link">Sobre mim</a></li>
+        <li class="nav-list"><a href="" class="nav-link">Habilidades</a></li>
+        <li class="nav-list"><a href="" class="nav-link">Projetos</a></li>
+        <li class="nav-list"><a href="" class="nav-link">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--Fim do cabecalho-->
+  
+  <!--inicio do conteudo-->
+  <main class="conteudo">
+    <div class="container-conteudo">
+      <p>Olá, eu sou o</p>
+      <h1>André Moreira</h1>
+      <h2><strong>Desenvolvedor Web</strong></h2>
+      <h3>Com conhecimentos em desenvolvimento web e design, ofereço os melhores projetos resultantes em trabalho de qualidade.</h3>
+      <a class="botao-conversa" href=""style="padding: 8px">Vamos conversar</a>
+    </div>
+    
+    <!--Inicio sessao sobre mim-->
+    <section class="sobre-mim">
+      <div class="container-sobre-mim">
+        <p>Minha <span>introdução</span></p>
+        <h2 class="subtitulo">Sobre mim</h2>
+        <h3>Desenvolvedor Front-end, crio páginas web com interface de usuário UI/UX, já tive a oportunidade de trabalhar em vários projetos e conquistar a satisfação dos meus clientes.
+        Busco constantemente aprimorar minhas habilidades técnicas e acompanhar as tendências do mercado, a fim de entregar soluções modernas e eficientes.</h3>
+        <a class="botao-conversa" href="">Fale comigo</a>
+      </div>
+    </section>
+    <!--Fim sessao sobre mim-->
+    
+    <!--Inicio da sessao habilidades-->
+    <section class="habilidades">
+      <div class="container-habilidades">
+         <p>Habilidades<span> favoritas</span></p>
+         <h2 class="subtitulo">Minhas habilidades</h2>
+         <h3>Veja na íntegra quais habilidades eu tenho e desempenho, para desenvolver os projetos para você.</h3>
+         <a class="botao-conversa" href="">Ver projetos</a>
+         
+            <!--html-->
+             <h4>HTML</h4>
+             <div class="barraProgresso">
+                 <div class="html"><span>80%</span></div>
+             </div>
+             <!--fim html -->
+             
+            <!--CSS-->
+            <h4>CSS</h4>
+            <div class="barraProgresso">
+                <div class="css"><span>60%</span></div>
+            </div>
+            <!--fim css-->
+
+            <h4>SQl</h4>
+            <div class="barraProgresso">
+                <div class="sql"><span>55%</span></div>
+            </div>
+            <!--fim sql-->
+            <!--python-->
+            <h4>PYTHON</h4>
+            <div class="barraProgresso">
+                <div class="python"><span>49%</span></div>
+            </div>
+            <!--fim python-->
+            <!--sql-->
+
+            <!--javaScrip-->
+            <h4>JavaScript</h4>
+            <div class="barraProgresso">
+                <div class="javascript"><span>45%</span></div>
+            </div>
+      </div>
+    </section>
+    <!--Fim da sessao habilidades-->
+  </main>
+  <!--Fim do conteúdo-->
+  <script src="main.js"></script>
+</body>
+</html>

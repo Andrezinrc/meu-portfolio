@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.cabecalho {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: #1C1C21;
+}
+.titulo {
+  position: relative;
+  font-size: 16px;
+  left: -3px;
+  color: white;
+  padding: 20px;
+  margin-bottom: 1px;
+  color: white;
+}
+.subtitulo{
+  color: black;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  top: -5px;
+}
+.nav-link{
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+}
+.nav-link:hover{
+  color: #7A3FC6;
+}
+.menu-mobile{
+  display: none;
+}
+.menu-desk{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.conteudo{
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  background-color: #1C1C21;
+  z-index: -1;
+}
+.container-conteudo{
+  width: 50%;
+  text-align: center;
+  margin: 50px;
+  padding: 50px;
+}
+.container-conteudo p{
+  color: white;
+  margin-bottom: 6px;
+}
+.container-conteudo h1 {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 20px;
+}
+.container-conteudo h2{
+  font-size: 15px;
+  color: white;
+  margin-bottom: 10px;
+}
+.container-conteudo h3 {
+  font-size: 15px;
+  color: white;
+  margin-bottom: 20px;
+}
+.botao-conversa{
+  font-size: 12px;
+  padding: 8px 12px;
+  background-color: #A1A2A3;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+.sobre-mim{
+  position: absolute;
+  width: 100%;
+  position: absolute;
+  background-color: #f0f0f0;
+}
+.container-sobre-mim{
+  margin: 30px;
+  padding: 30px;
+  text-align: center;
+  padding-top: 50px;
+}
+.container-sobre-mim p{
+  color: black;
+  margin-bottom: 10px;
+}
+.container-sobre-mim span{
+  color: #7A3FC6;
+}
+.container-sobre-mim h3{
+  font-size: 15px;
+  color: black;
+  margin-bottom: 20px;
+}
+.habilidades{
+  width: 100%;
+  position: absolute;
+  top: 47rem;
+  background-color: white;
+}
+.container-habilidades {
+  margin: 30px;
+  padding: 30px;
+  text-align: center;
+}
+.container-habilidades p{
+  color: black;
+  margin-bottom: 10px;
+}
+.container-habilidades span{
+  color: #7A3FC6;
+}
+.container-habilidades h3{
+    color: black;
+    margin-bottom: 20px;
+ }
+.container-habilidades h4{
+  color: black;
+  text-align: left;
+}
+.barraProgresso{
+    background-color: #959595;
+    width: 100%;
+    border-radius: 5px;
+    height: 10px;
+    margin-bottom: 10px;
+}
+.barraProgresso div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+}
+.barraProgresso div span{
+    background-color: #222;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.html{
+    background: #7A3FC6;
+    animation: html 2.5s linear forwards;
+}
+
+.css{
+    background: #7A3FC6;
+    animation: css 2.5s linear forwards;
+}
+.python{
+    background: #7A3FC6;
+    animation: python 2.5s linear forwards;
+}
+.javascript{
+    background: #7A3FC6;
+    animation: javascript 2.5s linear forwards;
+}
+.sql{
+    background: #7A3FC6;
+    animation: sql 2.5s linear forwards;
+}
+.html span{
+    border: 1px solid #7A3FC6;
+}
+.css span{
+    border: 1px solid #7A3FC6;
+}
+.python span{
+    border: 1px solid #7A3FC6;
+}
+.sql span{
+    border: 1px solid #7A3FC6;
+}
+.javascript span{
+    border: 1px solid #7A3FC6;
+}
+/*animatiom*/
+@keyframes html{
+    100%{
+        width: 80%;
+    }
+}
+@keyframes css{
+    100%{
+        width: 60%;
+    }
+}
+@keyframes sql{
+    100%{
+        width: 55%;
+    }
+}
+@keyframes python{
+    100%{
+        width: 49%;
+    }
+}
+@keyframes javascript{
+    100%{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 768px){
+  .titulo{
+    display: none;
+  }
+  .menu-desk{
+    display: none;
+  }
+  .nav-bar{
+    display: block;
+  }
+  .hamburguer {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 15px;
+    left: 90%;
+  }
+  .hamburguer.ativar .line:nth-child(1) {
+    transform: rotate(-45deg);
+    transition: all 0.5s;
+  }
+  .hamburguer.ativar .line:nth-child(2) {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  .hamburguer.ativar .line:nth-child(3) {
+    transform: rotate(45deg);
+    transition: all 0.5s;
+  }
+  .line {
+    display: flex;
+    width: 22px;
+    height: 2px;
+    background-color: white;
+    border-radius: 3px;
+    margin: 5px 1px;
+    transform-origin: 21px;
+  }
+  .menu-mobile{
+    display: block;
+    width: 220px;
+    height: auto;
+    list-style: none;
+    background-color: #1C1C21;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    transform: translateX(350px);
+    transition: all 0.8s;
+    z-index: 1000;
+    padding: 12px;
+    opacity: 0;
+  }
+  .menu-mobile .nav-list {
+    padding: 20px;
+  }
+  .abrirMenu {
+    transform: translateX(0);
+    transition: all 0.8s;
+    opacity: 1;
+  }
+  .container-conteudo {
+    width: 100%;
+    margin: 0;
+    padding: 50px 10px;
+  }
+  .container-conteudo h1 {
+    font-size: 37px;
+  }
+  .container-conteudo h2{
+    font-size: 18px;
+  }
+  .container-conteudo h3 {
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+  .container-sobre-mim {
+    margin: 30px 10px;
+    padding: 30px;
+  }
+  .container-habilidades {
+    margin: 30px 0px;
+    padding: 30px;
+  }
+  .barraProgresso{
+    position: relative;
+    margin: 0 auto;
+    background-color: #959595;
+    border-radius: 5px;
+    height: 10px;
+    margin-bottom: 15px;
+}
+.barraProgresso div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+}
+.barraProgresso div span{
+    background-color: #222;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+}
