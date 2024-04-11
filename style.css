@@ -49,6 +49,14 @@
   align-items: center;
   gap: 20px;
 }
+.wpp{
+  position: fixed;
+  left: 85%;
+  top: 83vh;
+}
+.wpp img{
+  width: 35px;
+}
 .conteudo{
   position: relative;
   top: 50px;
@@ -83,7 +91,7 @@
 .botao-conversa{
   font-size: 12px;
   padding: 8px 12px;
-  background-color: #A1A2A3;
+  background-color: #7A3FC6;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -201,7 +209,6 @@
 .javascript span{
     border: 1px solid #7A3FC6;
 }
-/*animatiom*/
 @keyframes html{
     100%{
         width: 80%;
@@ -236,6 +243,7 @@
   width: 100%;
   background-color: #f0f0f0;
   text-align: center;
+  border: 1px solid red;
 }
 .container-servicos{
   display: flex;
@@ -263,6 +271,25 @@
   font-size: 15px;
 }
 .container-servicos span {
+  color: #7A3FC6;
+}
+.projetos{
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  border: 1px solid greenyellow;
+}
+.container-projetos{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 50px;
+}
+.projeto-titulo{
+  color: black;
+  margin-bottom: 10px;
+}
+.projeto-titulo span{
   color: #7A3FC6;
 }
 @media screen and (max-width: 768px){
