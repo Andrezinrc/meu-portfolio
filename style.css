@@ -50,7 +50,7 @@
   gap: 20px;
 }
 .conteudo{
-  position: absolute;
+  position: relative;
   top: 50px;
   width: 100%;
   background-color: #1C1C21;
@@ -59,7 +59,6 @@
 .container-conteudo{
   width: 50%;
   text-align: center;
-  margin: 50px;
   padding: 50px;
 }
 .container-conteudo p{
@@ -91,15 +90,12 @@
   margin-bottom: 50px;
 }
 .sobre-mim{
-  position: absolute;
   width: 100%;
   background-color: #f0f0f0;
 }
 .container-sobre-mim{
-  margin: 30px;
-  padding: 30px;
   text-align: center;
-  padding-top: 50px;
+  padding: 50px;
 }
 .sobre-titulo{
   font-size: 15px;
@@ -108,21 +104,18 @@
 }
 .paragrafo-sobre-mim{
   font-size: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 40px !important;
 }
 .container-sobre-mim span{
   color: #7A3FC6;
 }
 .habilidades{
   width: 100%;
-  position: absolute;
-  top: 47rem;
   background-color: white;
 }
 .container-habilidades {
-  margin: 30px;
-  padding: 30px;
   text-align: center;
+  padding: 50px;
 }
 .habilidades-titulo{
   color: black;
@@ -186,6 +179,10 @@
     background: #7A3FC6;
     animation: sql 2.5s linear forwards;
 }
+.flask{
+  background: #7A3FC6;
+  animation: sql 2.5s linear forwards;
+}
 .html span{
     border: 1px solid #7A3FC6;
 }
@@ -197,6 +194,9 @@
 }
 .sql span{
     border: 1px solid #7A3FC6;
+}
+.flask span{
+  border: 1px solid #7A3FC6;
 }
 .javascript span{
     border: 1px solid #7A3FC6;
@@ -219,18 +219,21 @@
 }
 @keyframes python{
     100%{
-        width: 49%;
+        width: 70%;
     }
+}
+@keyframes flask {
+  100% {
+    width: 49%;
+  }
 }
 @keyframes javascript{
     100%{
-        width: 45%;
+        width: 66%;
     }
 }
 .servicos{
   width: 100%;
-  position: absolute;
-  top: 78rem;
   background-color: #f0f0f0;
   text-align: center;
 }
@@ -238,8 +241,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin: 30px 10px;
-  padding: 30px;
+  padding: 50px;
 }
 .servico{
   width: 100%;
@@ -328,7 +330,6 @@
   }
   .container-conteudo {
     width: 100%;
-    margin: 0;
     padding: 50px 10px;
   }
   .container-conteudo h1 {
@@ -342,12 +343,10 @@
     margin-bottom: 50px;
   }
   .container-sobre-mim {
-    margin: 30px 10px;
-    padding: 30px;
+    padding: 50px 10px;
   }
   .container-habilidades {
-    margin: 30px 0px;
-    padding: 30px;
+    padding: 50px 10px;
   }
   .barraProgresso{
     position: relative;
@@ -375,11 +374,7 @@
     justify-content: center;
     display: flex;
 }
-.servicos{
-  padding-top: 50px;
-}
 .container-servicos {
-  margin: 10px;
-  padding: 10px;
+  padding: 50px 10px;
 }
 }
