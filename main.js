@@ -47,3 +47,18 @@ function efeitoEscrita() {
 window.onload = function() {
   efeitoEscrita();
 };
+
+// abrir a segunda parte de projetos
+
+var segundaParte = document.getElementById("segunda-parte-projetos")
+var verMais = document.getElementById("ver-mais")
+
+verMais.addEventListener("click", () => {
+  if(segundaParte.style.display == "none"){
+    segundaParte.style.display = "flex";
+    verMais.innerText = "Ver Menos";
+  }else{
+    segundaParte.style.display = "none";
+    verMais.innerText = "Ver Mais";
+  }
+})

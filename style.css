@@ -85,7 +85,6 @@
 }
 .paragrafo-conteudo {
   font-size: 15px;
-  color: blue;
   margin-bottom: 40px !important;
 }
 .botao-conversa{
@@ -110,7 +109,7 @@
 }
 .sobre-titulo{
   font-size: 15px;
-  color: black;
+  color: #1C1C21;
   margin-bottom: 10px;
 }
 .paragrafo-sobre-mim{
@@ -129,7 +128,7 @@
   padding: 50px;
 }
 .habilidades-titulo{
-  color: black;
+  color: #1C1C21;
   margin-bottom: 10px;
 }
 .habilidades-titulo span{
@@ -137,9 +136,9 @@
 }
 .paragrafo-habilidades{
     font-size: 15px;
-    color: black;
+    color: #1C1C21;
     margin-bottom: 20px;
- }
+}
 .container-habilidades h4{
   color: black;
   text-align: left;
@@ -243,7 +242,6 @@
     }
 }
 .servicos{
-  width: 100%;
   background-color: #f0f0f0;
   text-align: center;
 }
@@ -284,7 +282,11 @@
   margin: 0 auto;
   padding: 50px;
 }
-
+.segunda-parte-projetos{
+  display: none;
+  flex-direction: column;
+  gap: 10px !important;
+}
 .subtitulo {
   text-align: center;
   margin-bottom: 30px;
@@ -323,7 +325,7 @@
   text-align: center;
 }
 .projeto-titulo span{
-  color: #7A3FC6;;
+  color: #7A3FC6;
 }
 .projeto-titulo span{
   color: #7A3FC6;
@@ -346,10 +348,10 @@
 }
 input{
   width: 100%;
-  height: 35px;
+  height: 40px;
   border: 0;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   background-color: #2B2B2F;
   padding: 10px;
 }
@@ -374,10 +376,10 @@ textarea{
 .copy{
   padding: 10px;
   text-align: center;
-  background-color: #f0f0f0;
+  background-color: #1C1C21;
 }
 .copy p{
-  color: #1C1C21;
+  color: #f0f0f0;
 }
 @media screen and (max-width: 768px){
   .titulo{
@@ -417,6 +419,7 @@ textarea{
     border-radius: 3px;
     margin: 5px 1px;
     transform-origin: 21px;
+    transition: all 0.5s;
   }
   .menu-mobile{
     display: block;
@@ -505,12 +508,16 @@ textarea{
 }
 .copy p {
   font-size: 15px;
-  color: #1C1C21;
 }
 }
 @media screen and (max-width: 400px){
+  .barraProgresso{
+    height: 7px;
+  }
+  .barraProgresso div{
+    height: 7px;
+  }
   .copy p {
     font-size: 12px;
-    color: #1C1C21;
   }
 }
