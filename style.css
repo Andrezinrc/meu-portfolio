@@ -90,7 +90,7 @@
 }
 .botao-conversa{
   font-size: 12px;
-  padding: 8px 12px;
+  padding: 10px 12px;
   background-color: #7A3FC6;
   color: white;
   text-decoration: none;
@@ -307,7 +307,8 @@
 
 .botao-saiba-mais {
   display: inline-block;
-  padding: 8px 16px;
+  padding: 10px 12px;
+  font-size: 12px;
   background-color: #7A3FC6;
   color: #fff;
   text-decoration: none;
@@ -496,6 +497,7 @@ textarea{
   padding: 50px 10px;
 }
 .botao-enviar-mensagem{
+  font-size: 12px;
   margin: 0 auto;
   width: 150px;
   color: white;
