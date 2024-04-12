@@ -354,6 +354,7 @@ input{
   margin-bottom: 20px;
   background-color: #2B2B2F;
   padding: 10px;
+  color: white;
 }
 textarea{
   width: 100%;
@@ -363,6 +364,7 @@ textarea{
   margin-bottom: 20px;
   background-color: #2B2B2F;
   padding: 10px;
+  color: white;
 }
 .botao-enviar-mensagem{
   margin: 0 auto;
