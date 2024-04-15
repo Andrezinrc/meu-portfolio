@@ -103,6 +103,7 @@
   text-decoration: none;
   border-radius: 5px;
   margin-bottom: 50px;
+  border: 0;
 }
 .botao-conversa:hover{
   background-color: #50057D;
@@ -328,6 +329,7 @@
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+  border: 0;
 }
 
 .botao-saiba-mais:hover {
@@ -383,6 +385,7 @@ textarea{
   width: 200px;
   color: white;
   background-color: #7A3FC6;
+  border: 0;
 }
 .botao-enviar-mensagem:hover{
   background-color: #6b349b;
