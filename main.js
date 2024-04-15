@@ -1,17 +1,35 @@
 //função para animar o hambúrguer e o menu
+var btn = document.getElementById("btn-menu");
 
+var menu = document.getElementById("menu")
+  
 function animar() {
-
-  var btn = document.getElementById("btn-menu");
   btn.classList.toggle('ativar')
-
-  var menu = document.getElementById("menu")
   menu.classList.toggle('abrirMenu');
 }
 
+var sobremim = document.getElementById("sobremim")
+sobremim.addEventListener("click", () => {
+  animar()
+})
+var habilidade = document.getElementById("habilidade")
+habilidade.addEventListener("click", () => {
+  animar()
+})
+var projeto = document.getElementById("projeto")
+projeto.addEventListener("click", () => {
+  animar()
+})
+var servico = document.getElementById("servico")
+servico.addEventListener("click", () => {
+  animar()
+})
+var contato = document.getElementById("meucontato")
+contato.addEventListener("click", () => {
+  animar()
+})
 
 // efeito de escrever e apagar
-
 var textos = ["Desenvolvedor Front-end", "Freelancer", "Designer"];
 var indice = 0;
 var apagando = false;
