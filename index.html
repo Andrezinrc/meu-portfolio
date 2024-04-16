@@ -29,11 +29,13 @@
       
       <!--menu despositivo moveis-->
       <ul id="menu" class="menu-mobile">
+        <div class="centralizar-menu">
         <li class="nav-list"><a id="sobremim" href="#sobre" class="nav-link">Sobre mim</a></li>
         <li class="nav-list"><a id="habilidade" href="#habilidades" class="nav-link">Habilidades</a></li>
         <li class="nav-list"><a id="servico" href="#servicos" class="nav-link">Serviços</a></li>
         <li class="nav-list"><a id="projeto" href="#projetos" class="nav-link">Projetos</a></li>
         <li class="nav-list"><a id="meucontato" href="#contato" class="nav-link">Contato</a></li>
+        </div>
       </ul>
     </nav>
     <div class="botao-inicio"><a href="#cabecalho">↑</a></div>
@@ -41,7 +43,7 @@
   <!--Fim do cabecalho-->
   
   <!--inicio do conteudo-->
-  <main class="conteudo">
+  <main class="conteudo" id="conteudo">
     <div class="container-conteudo">
       <p class="paragrafo">Olá, eu sou o</p>
       <h1>André Moreira</h1>
@@ -235,9 +237,9 @@
       <p class="contato-titulo">Entrar em <span>contato</span></p>
       <h2 class="subtitulo"style="color: white">Entre em Contato</h2>
       <form class="formulario" action="">
-        <input type="text" class="nome" name="nome"placeholder="Digite seu nome">
-        <input type="text" class="email" name="email"placeholder="Digite seu nome">
-        <textarea name="mensagem"placeholder="Digite sua mensagem"></textarea>
+        <input type="text" class="nome" name="nome"placeholder="Digite seu nome" required>
+        <input type="text" class="email" name="email"placeholder="Digite seu nome" required>
+        <textarea name="mensagem"placeholder="Digite sua mensagem" required></textarea>
         <input type="submit" class="botao-enviar-mensagem" value="Enviar">
       </form>
     </div>
