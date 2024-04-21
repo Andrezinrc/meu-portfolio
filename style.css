@@ -161,7 +161,7 @@
     background-color: #959595;
     width: 100%;
     border-radius: 5px;
-    height: 15px;
+    height: 10px;
     margin-bottom: 10px;
 }
 .barraProgresso div{
@@ -207,6 +207,10 @@
   background-color: #7A3FC6;
   animation: flask 2.5s linear forwards;
 }
+.react {
+  background-color: #7A3FC6;
+  animation: react 2.5s linear forwards;
+}
 .html span{
     border: 1px solid #7A3FC6;
 }
@@ -224,6 +228,9 @@
 }
 .javascript span{
     border: 1px solid #7A3FC6;
+}
+.react span {
+  border: 1px solid #7A3FC6;
 }
 @keyframes html{
     100%{
@@ -248,6 +255,11 @@
 @keyframes flask {
   100% {
     width: 49%;
+  }
+}
+@keyframes react {
+  100% {
+    width: 35%;
   }
 }
 @keyframes javascript{
@@ -286,7 +298,7 @@
   color: #7A3FC6;
 }
 .projetos {
-  background-color: #f0f0f0;
+  background-color: #7A3FC6;
 }
 
 .container-projetos {
@@ -341,10 +353,7 @@
   text-align: center;
 }
 .projeto-titulo span{
-  color: #7A3FC6;
-}
-.projeto-titulo span{
-  color: #7A3FC6;
+  color: white;
 }
 .rodape{
   position: relative;
