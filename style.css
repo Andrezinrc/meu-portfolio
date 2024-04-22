@@ -1,15 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
-
 .cabecalho {
   position: fixed;
   width: 100%;
   height: 50px;
-  background-color: #1C1C21;
+  background-color: #02121C;
   z-index: 1000;
 }
 .titulo {
@@ -50,52 +50,62 @@
   align-items: center;
   gap: 20px;
 }
-.wpp{
+.botao-inicio{
   position: fixed;
+  width: 35px;
+  height: 40px;
   left: 85%;
   top: 83vh;
+  background-color: #1C1C21;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  text-align: center;
 }
-.wpp img{
-  width: 35px;
+.botao-inicio a{
+  text-decoration: none;
+  font-size: 25px;
+  color: #7A3FC6;
 }
-
 .conteudo{
   position: relative;
   top: 50px;
   width: 100%;
-  background-color: #1C1C21;
+  background-color: #02121C;
 }
 .container-conteudo{
   width: 50%;
-  text-align: center;
-  padding: 50px;
+  text-align: left;
+  padding: 100px 50px;
 }
-.container-conteudo p{
+.paragrafo{
   color: white;
-  margin-bottom: 6px;
+  margin-bottom: 30px;
+  font-size: 25px;
 }
 .container-conteudo h1 {
-  font-size: 40px;
+  font-size: 46px !important;
   color: white;
-  margin-bottom: 20px;
-}
-.container-conteudo h2{
-  font-size: 15px;
-  color: white;
-  margin-bottom: 10px;
-}
-.paragrafo-conteudo {
-  font-size: 15px;
   margin-bottom: 40px !important;
 }
+.container-conteudo h2{
+  font-size: 25px !important;
+  color: white;
+  margin-bottom: 40px;
+}
+.paragrafo-conteudo {
+  font-size: 17px;
+  margin-bottom: 60px !important;
+  color: white;
+}
 .botao-conversa{
-  font-size: 12px;
+  font-size: 15px;
   padding: 10px 12px;
   background-color: #7A3FC6;
   color: white;
   text-decoration: none;
   border-radius: 5px;
   margin-bottom: 50px;
+  border: 0;
 }
 .botao-conversa:hover{
   background-color: #50057D;
@@ -106,7 +116,7 @@
 }
 .container-sobre-mim{
   text-align: center;
-  padding: 50px;
+  padding: 100px 50px;
 }
 .sobre-titulo{
   font-size: 15px;
@@ -114,42 +124,47 @@
   margin-bottom: 10px;
 }
 .paragrafo-sobre-mim{
-  font-size: 15px;
-  margin-bottom: 40px !important;
+  font-size: 17px;
+  margin-bottom: 60px !important;
+  width: 100%;
+  text-align: justify;
 }
 .container-sobre-mim span{
   color: #7A3FC6;
 }
 .habilidades{
   width: 100%;
-  background-color: white;
+  background-color: #f0f0f0;
+  
 }
 .container-habilidades {
   text-align: center;
-  padding: 50px;
+  padding: 100px 50px;
+  background-color: #02121C;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .habilidades-titulo{
-  color: #1C1C21;
+  color: white;
   margin-bottom: 10px;
 }
 .habilidades-titulo span{
   color: #7A3FC6;
 }
 .paragrafo-habilidades{
-    font-size: 15px;
-    color: #1C1C21;
+    font-size: 17px;
+    color: white;
     margin-bottom: 20px;
 }
 .container-habilidades h4{
-  color: black;
+  color: white;
   text-align: left;
 }
 .barraProgresso{
-    background-color: #959595;
+    background-color: #C6C7CB;
     width: 100%;
     border-radius: 5px;
     height: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .barraProgresso div{
     height: 10px;
@@ -170,29 +185,33 @@
     display: flex;
 }
 .html{
-    background: #7A3FC6;
+    background-color: #7A3FC6;
     animation: html 2.5s linear forwards;
 }
 
 .css{
-    background: #7A3FC6;
+    background-color: #7A3FC6;
     animation: css 2.5s linear forwards;
 }
 .python{
-    background: #7A3FC6;
+    background-color: #7A3FC6;
     animation: python 2.5s linear forwards;
 }
 .javascript{
-    background: #7A3FC6;
+    background-color: #7A3FC6;
     animation: javascript 2.5s linear forwards;
 }
 .sql{
-    background: #7A3FC6;
+    background-color: #7A3FC6;
     animation: sql 2.5s linear forwards;
 }
 .flask{
-  background: #7A3FC6;
+  background-color: #7A3FC6;
   animation: flask 2.5s linear forwards;
+}
+.react {
+  background-color: #7A3FC6;
+  animation: react 2.5s linear forwards;
 }
 .html span{
     border: 1px solid #7A3FC6;
@@ -211,6 +230,9 @@
 }
 .javascript span{
     border: 1px solid #7A3FC6;
+}
+.react span {
+  border: 1px solid #7A3FC6;
 }
 @keyframes html{
     100%{
@@ -237,6 +259,11 @@
     width: 49%;
   }
 }
+@keyframes react {
+  100% {
+    width: 35%;
+  }
+}
 @keyframes javascript{
     100%{
         width: 66%;
@@ -250,20 +277,18 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 50px;
+  padding: 100px 50px;
 }
 .servico{
   width: 100%;
-  height: auto;
+  height: 200px;
   border-radius: 10px;
-  background-color: #1C1C21;
+  background-color: #02121C;
   color: white;
   text-align: center;
   font-size: 15px;
-  padding: 50px 10px;
-}
-.servico:hover{
-  border: 1px solid #7A3FC6;
+  padding: 50px 10px !important;
+  border: 0;
 }
 .servico h2{
   font-size: 20px;
@@ -273,15 +298,15 @@
   color: #7A3FC6;
 }
 .projetos {
-  background-color: #f0f0f0;
+  background-color: #02121C;
 }
 
 .container-projetos {
   display: flex;
   flex-direction: column;
-  gap: 10px !important;
+  gap: 10px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 100px 50px;
 }
 .segunda-parte-projetos{
   display: none;
@@ -294,14 +319,18 @@
 }
 
 .projeto {
+  width: 100%;
+  height: 200px;
   background-color: #fff;
   padding: 50px 10px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 0;
 }
 
 .projeto h3 {
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .projeto p {
@@ -311,12 +340,13 @@
 .botao-saiba-mais {
   display: inline-block;
   padding: 10px 12px;
-  font-size: 12px;
+  font-size: 15px;
   background-color: #7A3FC6;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+  border: 0;
 }
 
 .botao-saiba-mais:hover {
@@ -324,9 +354,7 @@
 }
 .projeto-titulo{
   text-align: center;
-}
-.projeto-titulo span{
-  color: #7A3FC6;
+  color: white;
 }
 .projeto-titulo span{
   color: #7A3FC6;
@@ -335,7 +363,7 @@
   position: relative;
   top: 50px;
   width: 100%;
-  background-color: #1C1C21;
+  background-color: #02121C;
 }  
 .container-contato{
   padding: 50px;
@@ -343,42 +371,49 @@
 .contato-titulo{
   color: white;
   text-align: center;
+  Padding-top: 50px;
+
+  margin-bottom: 10px;
 }
 .contato-titulo span{
   color: #7A3FC6;
 }
 input{
   width: 100%;
-  height: 40px;
+  padding: 10px 12px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 20px;
-  background-color: #2B2B2F;
+  background-color: #f0f0f0;
   padding: 10px;
-  color: white;
+  color: black;
 }
 textarea{
   width: 100%;
   height: 150px;
+  padding: 10px 12px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 20px;
-  background-color: #2B2B2F;
-  padding: 10px;
-  color: white;
+  background-color: #f0f0f0;
+  color: black;
 }
 .botao-enviar-mensagem{
-  width: 200px;
+  width: 100%;
+  font-size: 15px;
   color: white;
   background-color: #7A3FC6;
+  border: 0;
+  padding: 10px 12px;
 }
 .botao-enviar-mensagem:hover{
-  background-color: #6b349b;
+  background-color: #50057D;
 }
 .copy{
-  padding: 10px;
+  width: 100%;
+  height: 40px;
   text-align: center;
-  background-color: #1C1C21;
+  padding-top: 15px;
 }
 .copy p{
   color: #f0f0f0;
@@ -426,20 +461,18 @@ textarea{
   .menu-mobile{
     display: block;
     width: 100%;
-    height: 100vh;
+    height: 250px;
     list-style: none;
-    background-color: #1C1C21;
-    text-align: center;
+    background-color: #7A3FC6;
     position: absolute;
     top: 50px;
-    transform: translateX(350px);
+    transform: translateX(100%);
     transition: all 0.8s;
     z-index: 999;
-    padding: 12px;
     opacity: 0;
   }
-  .menu-mobile .nav-list {
-    padding: 20px;
+  .nav-list{
+    padding: 15px;
   }
   .abrirMenu {
     transform: translateX(0);
@@ -466,32 +499,7 @@ textarea{
   .container-habilidades {
     padding: 100px 10px;
   }
-  .barraProgresso{
-    position: relative;
-    margin: 0 auto;
-    background-color: #959595;
-    border-radius: 5px;
-    height: 10px;
-    margin-bottom: 15px;
-}
-.barraProgresso div{
-    height: 10px;
-    border-radius: 5px;
-    width: 0%;
-}
-.barraProgresso div span{
-    background-color: #222;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    float: right;
-    margin-top: -15px;
-    margin-right: -20px;
-    color: #fff;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
+
 .container-servicos {
   padding: 100px 10px;
 }
@@ -500,14 +508,10 @@ textarea{
 }
 .container-contato{
   padding: 50px 10px;
-  
 }
 .botao-enviar-mensagem{
-  font-size: 12px;
   margin: 0 auto;
-  width: 150px;
   color: white;
-  background-color: #7A3FC6;
 }
 .copy p {
   font-size: 15px;
@@ -515,10 +519,10 @@ textarea{
 }
 @media screen and (max-width: 400px){
   .barraProgresso{
-    height: 7px;
+    height: 10px;
   }
   .barraProgresso div{
-    height: 7px;
+    height: 10px;
   }
   .copy p {
     font-size: 12px;

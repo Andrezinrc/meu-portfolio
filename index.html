@@ -9,7 +9,7 @@
 </head>
 <body>
   <!--Inicio do cabecalho-->
-  <header class="cabecalho">
+  <header class="cabecalho" id="cabecalho">
     <nav class="nav-bar">
       <h1 class="titulo">Portfólio</h1>
       <!--hamburguer mobile-->
@@ -29,23 +29,22 @@
       
       <!--menu despositivo moveis-->
       <ul id="menu" class="menu-mobile">
-        <li class="nav-list"><a href="#sobre" class="nav-link">Sobre mim</a></li>
-        <li class="nav-list"><a href="#habilidades" class="nav-link">Habilidades</a></li>
-        <li class="nav-list"><a href="#servicos" class="nav-link">Serviços</a></li>
-        <li class="nav-list"><a href="#projetos" class="nav-link">Projetos</a></li>
-        <li class="nav-list"><a href="#contato" class="nav-link">Contato</a></li>
+        <div class="centralizar-menu">
+        <li class="nav-list"><a id="sobremim" href="#sobre" class="nav-link">Sobre mim</a></li>
+        <li class="nav-list"><a id="habilidade" href="#habilidades" class="nav-link">Habilidades</a></li>
+        <li class="nav-list"><a id="servico" href="#servicos" class="nav-link">Serviços</a></li>
+        <li class="nav-list"><a id="projeto" href="#projetos" class="nav-link">Projetos</a></li>
+        <li class="nav-list"><a id="meucontato" href="#contato" class="nav-link">Contato</a></li>
+        </div>
       </ul>
     </nav>
-    <div class="wpp">
-      <a href="https://wa.me/5519997269646"><img src="img/whatsapp (1).png" alt=""></a>
-    </div>
   </header>
   <!--Fim do cabecalho-->
   
   <!--inicio do conteudo-->
-  <main class="conteudo">
+  <main class="conteudo" id="conteudo">
     <div class="container-conteudo">
-      <p>Olá, eu sou o</p>
+      <p class="paragrafo">Olá, eu sou o</p>
       <h1>André Moreira</h1>
       <h2 id="texto-digitado"></h2>
       <p class="paragrafo-conteudo">Com conhecimentos em desenvolvimento web e design, ofereço os melhores projetos resultantes em trabalho de qualidade.</p>
@@ -56,8 +55,8 @@
     <section class="sobre-mim"id="sobre">
       <div class="container-sobre-mim">
         <p class="sobre-titulo">Minha <span>introdução</span></p>
-        <h2 class="subtitulo">Sobre mim</h2>
-        <p class="paragrafo-sobre-mim">Sou um apaixonado por tecnologia, um desenvolvedor front-end que está expandindo seus horizontes para se aventurar no mundo do backend. Com um compromisso incansável com o aprendizado contínuo, estou dedicando meu tempo e energia para dominar novas habilidades e enfrentar desafios complexos. Meu objetivo é criar soluções inovadoras e impactantes que elevem a experiência do usuário e impulsionem o progresso tecnológico. Estou pronto para enfrentar qualquer desafio que o futuro da tecnologia possa trazer.</p>
+        <h2 class="subtitulo"style="margin-bottom: 50px;">Sobre mim</h2>
+        <div class="paragrafo-sobre-mim"><p>Olá, me chamo <span>André Moreira</span>. Sou um apaixonado por tecnologia, um desenvolvedor front-end que está expandindo seus horizontes para se aventurar no mundo do backend. Com um compromisso incansável com o aprendizado contínuo, estou dedicando meu tempo e energia para dominar novas habilidades e enfrentar desafios complexos. Meu objetivo é criar soluções inovadoras e impactantes que elevem a experiência do usuário e impulsionem o progresso tecnológico. Estou pronto para enfrentar qualquer desafio que o futuro da tecnologia possa trazer.</p></div>
         <a class="botao-conversa" href="#contato">Fale comigo</a>
       </div>
     </section>
@@ -67,10 +66,11 @@
     <section class="habilidades" id="habilidades">
       <div class="container-habilidades">
          <p class="habilidades-titulo">Habilidades<span> favoritas</span><p>
-         <h2 class="subtitulo">Minhas habilidades</h2>
+         <h2 class="subtitulo"style="color: white;">Minhas habilidades</h2>
          <p class="paragrafo-habilidades">Veja na íntegra quais habilidades eu tenho e desempenho, para desenvolver os projetos para você.</p>
+         <br><br>
          <a class="botao-conversa" href="#projetos">Ver projetos</a>
-         
+          <br><br><br><br>
             <!--html-->
              <h4>HTML</h4>
              <div class="barraProgresso">
@@ -86,11 +86,17 @@
             <!--fim css-->
             
             <!--javaScrip-->
-            <h4>JavaScript</h4>
+            <h4>JAVASCRIPT</h4>
             <div class="barraProgresso">
               <div class="javascript"><span>66%</span></div>
             </div>
-
+            
+            <!--React js-->
+            <h4>REACT JS</h4>
+            <div class="barraProgresso">
+              <div class="react"><span>35%</span></div>
+            </div>
+            
             <h4>SQl</h4>
             <div class="barraProgresso">
                 <div class="sql"><span>55%</span></div>
@@ -138,7 +144,7 @@
     <section class="projetos" id="projetos">
       <div class="container-projetos">
         <p class="projeto-titulo">Meus <span>projetos</span></p>
-        <h2 class="subtitulo">Projetos recentes</h2>
+        <h2 class="subtitulo"style="color: white;">Projetos recentes</h2>
         <!-- Projeto 1 -->
         <div class="projeto">
           <h3>Jogo da cobrinha</h3>
@@ -223,7 +229,7 @@
             <a href="#" class="botao-saiba-mais">Saiba Mais</a>
           </div>
         </div>
-        <a id="ver-mais" style="text-align: center; color: #7A3FC6;">Ver Mais</a>
+        <a id="ver-mais" style="text-align: center; color: white; text-decoration: underline;">Ver Mais</a>
       </div>
     </section>
     <!--Fim da sessao projetos-->
@@ -235,15 +241,20 @@
     <div class="container-contato">
       <p class="contato-titulo">Entrar em <span>contato</span></p>
       <h2 class="subtitulo"style="color: white">Entre em Contato</h2>
+      <p style="color: #C6C7CB; margin-bottom: 30px; text-align: center;">Atualmente estou em busca de novas oportunidades, minha caixa de entrada está sempre aberta. Se você tiver alguma dúvida ou apenas quiser dizer oi, farei o possível para entrar em contato com você!</p>
+      <div class="social"style="margin-bottom: 30px;">
+        <img src="img/github.svg" alt="">
+        <img src="img/linkedin.svg" alt="">
+      </div>
       <form class="formulario" action="">
-        <input type="text" class="nome" name="nome"placeholder="Digite seu nome">
-        <input type="text" class="email" name="email"placeholder="Digite seu nome">
-        <textarea name="mensagem"placeholder="Digite sua mensagem"></textarea>
+        <input type="text" class="nome" name="nome"placeholder="Digite seu nome" required>
+        <input type="text" class="email" name="email"placeholder="Digite seu nome" required>
+        <textarea name="mensagem"placeholder="Digite sua mensagem" required></textarea>
         <input type="submit" class="botao-enviar-mensagem" value="Enviar mensagem">
       </form>
     </div>
     <div class="copy">
-      <p>© 2024 Andrezinrc. Todos os direitos reservados.</p>
+      <p>© 2024 desenvolvido por Andrezinrc.</p>
     </div>
   </footer>
   <!--Fim do rodapé-->
