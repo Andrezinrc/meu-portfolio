@@ -125,7 +125,7 @@
 }
 .paragrafo-sobre-mim{
   font-size: 17px;
-  margin-bottom: 40px !important;
+  margin-bottom: 60px !important;
   width: 100%;
   text-align: justify;
 }
@@ -385,7 +385,7 @@ input{
   margin-bottom: 20px;
   background-color: #f0f0f0;
   padding: 10px;
-  color: white;
+  color: black;
 }
 textarea{
   width: 100%;
@@ -395,9 +395,10 @@ textarea{
   border-radius: 5px;
   margin-bottom: 20px;
   background-color: #f0f0f0;
-  color: white;
+  color: black;
 }
 .botao-enviar-mensagem{
+  width: 100%;
   font-size: 15px;
   color: white;
   background-color: #02121C;
@@ -409,13 +410,13 @@ textarea{
 }
 .copy{
   width: 100%;
-  height: 50px;
+  height: 40px;
   text-align: center;
-  background-color: #02121C;
-  padding-top: 20px;
+  background-color: #f0f0f0;
+  padding-top: 15px;
 }
 .copy p{
-  color: #f0f0f0;
+  color: black;
 }
 @media screen and (max-width: 768px){
   .titulo{
