@@ -288,6 +288,7 @@
   text-align: center;
   font-size: 15px;
   padding: 50px 10px !important;
+  border: 0;
 }
 .servico h2{
   font-size: 20px;
@@ -303,7 +304,7 @@
 .container-projetos {
   display: flex;
   flex-direction: column;
-  gap: 10px !important;
+  gap: 10px;
   margin: 0 auto;
   padding: 100px 50px;
 }
@@ -324,6 +325,7 @@
   padding: 50px 10px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 0;
 }
 
 .projeto h3 {
@@ -361,7 +363,7 @@
   position: relative;
   top: 50px;
   width: 100%;
-  background-color: #7A3FC6;
+  background-color: #02121C;
 }  
 .container-contato{
   padding: 50px;
@@ -370,10 +372,11 @@
   color: white;
   text-align: center;
   Padding-top: 50px;
+
   margin-bottom: 10px;
 }
 .contato-titulo span{
-  color: black;
+  color: #7A3FC6;
 }
 input{
   width: 100%;
@@ -399,18 +402,17 @@ textarea{
   width: 100%;
   font-size: 15px;
   color: white;
-  background-color: #02121C;
+  background-color: #7A3FC6;
   border: 0;
   padding: 10px 12px;
 }
 .botao-enviar-mensagem:hover{
-  background-color: #000009;
+  background-color: #50057D;
 }
 .copy{
   width: 100%;
   height: 40px;
   text-align: center;
-  background-color: #7A3FC6;
   padding-top: 15px;
 }
 .copy p{
@@ -459,25 +461,18 @@ textarea{
   .menu-mobile{
     display: block;
     width: 100%;
-    height: 100vh;
+    height: 250px;
     list-style: none;
-    background-color: #02121C;
-    text-align: center;
+    background-color: #7A3FC6;
     position: absolute;
     top: 50px;
-    transform: translateX(350px);
+    transform: translateX(100%);
     transition: all 0.8s;
     z-index: 999;
     opacity: 0;
   }
-  .centralizar-menu{
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  .nav-list{
+    padding: 15px;
   }
   .abrirMenu {
     transform: translateX(0);
