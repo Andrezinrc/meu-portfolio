@@ -376,7 +376,6 @@
   color: white;
   text-align: center;
   Padding-top: 50px;
-
   margin-bottom: 10px;
 }
 .contato-titulo span{
@@ -418,10 +417,14 @@ textarea{
   height: 70px;
   text-align: center;
   padding-top: 10px;
-  background-color: #7A3FC6;
+  background-color: #02121C;
+  border-top: 1px solid white;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
 }
 .social {
-  background-color: #7A3FC6;
+  background-color: #02121C;
   padding: 10px;
 }
 .copy p{
