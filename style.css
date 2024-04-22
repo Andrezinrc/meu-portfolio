@@ -289,9 +289,6 @@
   font-size: 15px;
   padding: 50px 10px !important;
 }
-.servico:hover{
-  border: 1px solid #69696E;
-}
 .servico h2{
   font-size: 20px;
   margin-bottom: 20px;
