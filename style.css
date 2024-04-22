@@ -77,6 +77,17 @@
   text-align: left;
   padding: 100px 50px;
 }
+.wpp{
+  position: fixed;
+  left: 90%;
+  top: 90vh;
+  width: 30px;
+  height: 30px;
+}
+.wpp img{
+  width: 30px;
+  height: 30px;
+}
 .paragrafo{
   color: white;
   margin-bottom: 30px;
@@ -427,6 +438,9 @@ textarea{
   background-color: #02121C;
   padding: 10px;
 }
+.social img{
+  width: 30px;
+}
 .copy p{
   color: #f0f0f0;
   font-size: 15px !important;
@@ -539,5 +553,8 @@ textarea{
   }
   .copy p {
     font-size: 12px;
+  }
+  .wpp {
+    left: 85%;
   }
 }
