@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,16 +8,19 @@
   <title>Portfólio</title>
 </head>
 <body>
+  
   <!--Inicio do cabecalho-->
-  <header class="cabecalho" id="cabecalho">
+  <header class="cabecalho">
     <nav class="nav-bar">
       <h1 class="titulo">Portfólio</h1>
+      
       <!--hamburguer mobile-->
       <div class="hamburguer" onclick="animar()" id="btn-menu">
         <span class="line"></span>
         <span class="line"></span>
         <span class="line"></span>
       </div>
+      
       <!--menu Desktop-->
       <ul class="menu-desk">
         <li class="nav-list"><a href="#sobre" class="nav-link">Sobre mim</a></li>
@@ -72,27 +75,22 @@
          <br><br>
          <a class="botao-conversa" href="#projetos">Ver projetos</a>
           <br><br><br><br>
-            <!--html-->
-             <h4>HTML</h4>
-             <div class="barraProgresso">
-                 <div class="html"><span>85%</span></div>
-             </div>
-             <!--fim html -->
+          
+            <h4>HTML</h4>
+            <div class="barraProgresso">
+              <div class="html"><span>85%</span></div>
+            </div>
              
-            <!--CSS-->
             <h4>CSS</h4>
             <div class="barraProgresso">
                 <div class="css"><span>60%</span></div>
             </div>
-            <!--fim css-->
             
-            <!--javaScrip-->
             <h4>JAVASCRIPT</h4>
             <div class="barraProgresso">
               <div class="javascript"><span>66%</span></div>
             </div>
             
-            <!--React js-->
             <h4>REACT JS</h4>
             <div class="barraProgresso">
               <div class="react"><span>35%</span></div>
@@ -102,15 +100,12 @@
             <div class="barraProgresso">
                 <div class="sql"><span>55%</span></div>
             </div>
-            <!--fim sql-->
-            <!--python-->
+
             <h4>PYTHON</h4>
             <div class="barraProgresso">
                 <div class="python"><span>70%</span></div>
             </div>
-            <!--fim python-->
-            
-            <!--flask-->
+
             <h4>FLASK</h4>
             <div class="barraProgresso">
               <div class="flask"><span>49%</span></div>
@@ -128,15 +123,16 @@
           <h2>Desenvolvimento Front-End</h2>
           <p>Desenvolvimento de páginas Web personalizadas. Utilizando as tecnologias mais recentes e bibliotecas do campo de trabalho.</p>
         </div>
+        
         <div class="servico">
           <h2>Resolução de Problemas</h2>
           <p>Sou capaz de solucionar bugs, realizar testes e depurar o código para garantir o bom funcionamento das interfaces.</p>
         </div>
+        
         <div class="servico">
           <h2>Frameworks e Bibliotecas</h2>
           <p>Tenho conhecimento em desenvolver aplicações consumindo APIs e realizando integrações com serviços externos.</p>
         </div>
-        
       </div>
     </section>
     <!--Fim da sessao servicos-->
@@ -243,6 +239,7 @@
       <p class="contato-titulo">Entrar em <span>contato</span></p>
       <h2 class="subtitulo"style="color: white">Entre em Contato</h2>
       <p style="color: #C6C7CB; margin-bottom: 30px; text-align: center;">Atualmente estou em busca de novas oportunidades, minha caixa de entrada está sempre aberta. Se você tiver alguma dúvida ou apenas quiser dizer oi, farei o possível para entrar em contato com você!</p>
+      
       <form class="formulario" action="">
         <input type="text" class="nome" name="nome"placeholder="Digite seu nome" required>
         <input type="text" class="email" name="email"placeholder="Digite seu email" required>
@@ -252,12 +249,16 @@
     </div>
     <div class="copy">
       <div class="social" style="margin-bottom: 10px;">
-        <img src="img/github.svg" alt="">
-        <img src="img/linkedin.svg" alt="">
+        <img src="img/github.svg" alt="imagem github">
+        <img src="img/linkedin.svg" alt="imagem linkdin">
+        
         <p>Copyright© 2024 desenvolvido por Andrezinrc. Todos os direitos reservados.</p>
       </div>
     </div>
   </footer>
+  <div class="wpp">
+    <a href="https://wa.me/5519997269646"><img src="/img/whatsapp (1).png" alt=""></a>
+  </div>
   <!--Fim do rodapé-->
   <script src="main.js"></script>
 </body>
