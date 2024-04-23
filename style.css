@@ -77,17 +77,6 @@
   text-align: left;
   padding: 100px 50px;
 }
-.wpp{
-  position: fixed;
-  left: 90%;
-  top: 90vh;
-  width: 30px;
-  height: 30px;
-}
-.wpp img{
-  width: 30px;
-  height: 30px;
-}
 .paragrafo{
   color: white;
   margin-bottom: 30px;
@@ -378,13 +367,13 @@
   position: relative;
   top: 50px;
   width: 100%;
-  background-color: #02121C;
+  background-color: #f0f0f0;
 }
 .container-contato{
   padding: 50px;
 }
 .contato-titulo{
-  color: white;
+  color: black;
   text-align: center;
   Padding-top: 50px;
   margin-bottom: 10px;
@@ -401,6 +390,7 @@ input{
   background-color: #f0f0f0;
   padding: 10px;
   color: black;
+  border: 1px solid black;
 }
 textarea{
   width: 100%;
@@ -411,6 +401,7 @@ textarea{
   margin-bottom: 20px;
   background-color: #f0f0f0;
   color: black;
+  border: 1px solid black;
 }
 .botao-enviar-mensagem{
   width: 100%;
@@ -438,9 +429,7 @@ textarea{
   background-color: #02121C;
   padding: 10px;
 }
-.social img{
-  width: 30px;
-}
+
 .copy p{
   color: #f0f0f0;
   font-size: 15px !important;
@@ -553,8 +542,5 @@ textarea{
   }
   .copy p {
     font-size: 12px;
-  }
-  .wpp {
-    left: 85%;
   }
 }
