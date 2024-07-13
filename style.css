@@ -394,6 +394,10 @@ html {
 .contato-titulo span{
   color: #7A3FC6;
 }
+.formulario{
+    width: 80%;
+    margin: 0 auto;
+}
 input{
   width: 100%;
   padding: 10px 12px;
@@ -555,8 +559,12 @@ textarea{
 .container-projetos {
   padding: 100px 30px;
 }
+
 .container-contato{
   padding: 50px 30px;
+}
+.formulario{
+    width: 100%;
 }
 .botao-enviar-mensagem{
   margin: 0 auto;
