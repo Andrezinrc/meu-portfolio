@@ -29,8 +29,7 @@ contato.addEventListener("click", () => {
   animar()
 })
 
-// efeito de escrever e apagar
-var textos = ["Desenvolvedor Front-end", "Freelancer", "Designer"];
+var textos = ["Desenvolvedor Backend", "Freelancer"];
 var indice = 0;
 var apagando = false;
 var velocidadeEscrita = 100;

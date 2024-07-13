@@ -76,34 +76,39 @@ html {
   background-color: #02121C;
 }
 .container-conteudo{
-  width: 50%;
+  width: 100%;
   text-align: left;
   padding-top: 100px;
   padding-bottom: 100px;
   padding-left: 50px;
   padding-right: 50px;
+  text-align: center;
+}
+.inform-conteudo{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 30px;
+    margin: 0 auto;
 }
 .paragrafo{
   color: white;
-  margin-bottom: 30px;
   font-size: 25px;
 }
 .container-conteudo h1 {
   font-size: 46px !important;
   color: white;
-  margin-bottom: 40px !important;
 }
 .container-conteudo h2{
   font-size: 25px !important;
   color: white;
-  margin-bottom: 40px;
 }
 .paragrafo-conteudo {
   font-size: 17px;
-  margin-bottom: 60px !important;
   color: white;
 }
 .botao-conversa{
+  width: 150px;
   font-size: 15px;
   padding: 10px 12px;
   background-color: #7A3FC6;
@@ -112,6 +117,8 @@ html {
   border-radius: 5px;
   margin-bottom: 50px;
   border: 0;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 .botao-conversa:hover{
   background-color: #50057D;
@@ -536,20 +543,20 @@ textarea{
     margin-bottom: 50px;
   }
   .container-sobre-mim {
-    padding: 100px 10px;
+    padding: 100px 50px;
   }
   .container-habilidades {
-    padding: 100px 10px;
+    padding: 100px 50px;
   }
 
 .container-servicos {
-  padding: 100px 10px;
+  padding: 100px 50px;
 }
 .container-projetos {
-  padding: 100px 10px;
+  padding: 100px 50px;
 }
 .container-contato{
-  padding: 50px 10px;
+  padding: 50px 50px;
 }
 .botao-enviar-mensagem{
   margin: 0 auto;
