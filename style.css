@@ -543,20 +543,20 @@ textarea{
     margin-bottom: 50px;
   }
   .container-sobre-mim {
-    padding: 100px 50px;
+    padding: 100px 30px;
   }
   .container-habilidades {
-    padding: 100px 50px;
+    padding: 100px 30px;
   }
 
 .container-servicos {
-  padding: 100px 50px;
+  padding: 100px 30px;
 }
 .container-projetos {
-  padding: 100px 50px;
+  padding: 100px 30px;
 }
 .container-contato{
-  padding: 50px 50px;
+  padding: 50px 30px;
 }
 .botao-enviar-mensagem{
   margin: 0 auto;
