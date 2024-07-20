@@ -43,6 +43,7 @@ html {
 }
 .nav-link:hover{
   color: #3ED598;
+  border-bottom: 1px solid #3ED598;
 }
 .menu-mobile{
   display: none;
