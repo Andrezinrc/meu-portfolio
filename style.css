@@ -84,6 +84,7 @@ html {
   padding-left: 50px;
   padding-right: 50px;
   text-align: center;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
 }
 .inform-conteudo{
     width: 60%;
@@ -151,13 +152,11 @@ html {
 }
 .habilidades{
   width: 100%;
-  background-color: #f0f0f0;
-
 }
 .container-habilidades {
   text-align: center;
   padding: 100px 50px;
-  background-color: #1F1B24;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .habilidades-titulo{
@@ -328,7 +327,7 @@ html {
   color: #3ED598;
 }
 .projetos {
-  background-color: #1F1B24;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
 }
 
 .container-projetos {
@@ -449,15 +448,15 @@ textarea{
   height: 70px;
   text-align: center;
   padding-top: 10px;
-  background-color: #1F1B24;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
   border-top: 1px solid white;
   border-left: 0;
   border-right: 0;
   border-bottom: 0;
 }
 .social {
-  background-color: #1F1B24;
   padding: 10px;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
 }
 
 .copy p{
