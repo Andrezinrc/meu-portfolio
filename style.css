@@ -42,8 +42,7 @@ html {
   color: white;
 }
 .nav-link:hover{
-  color: #3ED598;
-  border-bottom: 1px solid #3ED598;
+  color: gold;
 }
 .menu-mobile{
   display: none;
@@ -60,7 +59,7 @@ html {
   height: 40px;
   left: 85%;
   top: 83vh;
-  background-color: #3ED598;
+  background-color: gold;
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   text-align: center;
@@ -68,7 +67,7 @@ html {
 .botao-inicio a{
   text-decoration: none;
   font-size: 25px;
-  color: #7A3FC6;
+  color: #1F1B24;
 }
 .conteudo{
   position: relative;
@@ -113,8 +112,8 @@ html {
   width: 150px;
   font-size: 15px;
   padding: 10px 12px;
-  background-color: #3ED598;
-  color: white;
+  background-color: gold;
+  color: #1F1B24;
   text-decoration: none;
   border-radius: 5px;
   margin-bottom: 50px;
@@ -122,7 +121,7 @@ html {
   margin: 0 auto;
 }
 .botao-conversa:hover{
-  background-color: #34B586;
+  background-color: #ffd700;
 }
 .sobre-mim{
   width: 100%;
@@ -148,7 +147,7 @@ html {
   text-align: justify;
 }
 .container-sobre-mim span{
-  color: #3ED598;
+  color: #4B0082;
 }
 .habilidades{
   width: 100%;
@@ -164,7 +163,7 @@ html {
   margin-bottom: 10px;
 }
 .habilidades-titulo span{
-  color: #3ED598;
+  color: #4B0082;
 }
 .paragrafo-habilidades{
     font-size: 17px;
@@ -201,61 +200,61 @@ html {
     display: flex;
 }
 .html{
-    background-color: #3ED598;
+    background-color: #4B0082;
     animation: html 2.5s linear forwards;
 }
 
 .css{
-    background-color: #3ED598;
+    background-color: #4B0082;
     animation: css 2.5s linear forwards;
 }
 .python{
-    background-color: #3ED598;
+    background-color: #4B0082;
     animation: python 2.5s linear forwards;
 }
 .javascript{
-    background-color: #3ED598;
+    background-color: #4B0082;
     animation: javascript 2.5s linear forwards;
 }
 .mysql{
-    background-color: #3ED598;
+    background-color: #4B0082;
     animation: mysql 2.5s linear forwards;
 }
 .django{
-  background-color: #3ED598;
+  background-color: #4B0082;
   animation: django 2.5s linear forwards;
 }
 .aws{
-    background-color: #3ED598;
+    background-color: #4B0082;
     animation: aws 2.5s linear forwards;
 }
 .docker{
-    background-color: #3ED598;
+    background-color: #4B0082;
     animation: docker 2.5s linear forwards;
 }
 .html span{
-    border: 1px solid #3ED598;
+    border: 1px solid #4B0082;
 }
 .css span{
-    border: 1px solid #3ED598;
+    border: 1px solid #4B0082;
 }
 .python span{
-    border: 1px solid #3ED598;
+    border: 1px solid #4B0082;
 }
 .mysql span{
-    border: 1px solid #3ED598;
+    border: 1px solid #4B0082;
 }
 .django span{
-  border: 1px solid #3ED598;
+  border: 1px solid #4B0082;
 }
 .javascript span{
-    border: 1px solid #3ED598;
+    border: 1px solid #4B0082;
 }
 .aws span{
-    border: 1px solid #3ED598;
+    border: 1px solid #4B0082;
 }
 .docker span{
-    border: 1px solid #3ED598;
+    border: 1px solid #4B0082;
 }
 @keyframes html{
     100%{
@@ -324,7 +323,7 @@ html {
   margin-bottom: 20px;
 }
 .container-servicos span {
-  color: #3ED598;
+  color: #4B0082;
 }
 .projetos {
   background: linear-gradient(to right, #8e2de2, #4a00e0);
@@ -370,8 +369,8 @@ html {
   display: inline-block;
   padding: 10px 12px;
   font-size: 15px;
-  background-color: #3ED598;
-  color: #fff;
+  background-color: gold;
+  color: #1F1B24;
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
@@ -379,14 +378,14 @@ html {
 }
 
 .botao-saiba-mais:hover {
-  background-color: #34B586;
+  background-color: #ffd700;
 }
 .projeto-titulo{
   text-align: center;
   color: white;
 }
 .projeto-titulo span{
-  color: #3ED598;
+  color: #4B0082;
 }
 .rodape{
   position: relative;
@@ -404,7 +403,7 @@ html {
   margin-bottom: 10px;
 }
 .contato-titulo span{
-  color: #3ED598;
+  color: #4B0082;
 }
 .formulario{
     width: 80%;
@@ -435,13 +434,13 @@ textarea{
 .botao-enviar-mensagem{
   width: 100%;
   font-size: 15px;
-  color: white;
-  background-color: #3ED598;
+  color: #1F1B24;
+  background-color: gold;
   border: 0;
   padding: 10px 12px;
 }
 .botao-enviar-mensagem:hover{
-  background-color: #34B586;
+  background-color: #ffd700;
 }
 .copy{
   width: 100%;
@@ -524,7 +523,7 @@ textarea{
     width: 100%;
     height: 100vh;
     list-style: none;
-    background-color: #1F1B24;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
     position: absolute;
     top: 50px;
     transform: translateX(100%);
