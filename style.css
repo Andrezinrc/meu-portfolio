@@ -471,20 +471,25 @@ textarea{
   font-size: 15px !important;
 }
 .subir{
+  display: flex;
+  justify-content: center;
   position: fixed;
-  width: 33px;
-  height: 43px;
+  width: 30px;
+  height: 40px;
   box-shadow: 0 5px 8px rgba(1, 1, 1, 0.3);
   background-color: #1F1B24;
   left: 90%;
   top: 90vh;
   border-radius: 5px;
 }
+.subir:hover{
+    width: 33px;
+    height: 43px;
+}
 .subir a{
   text-decoration: none;
   color: #f0f0f0;
   font-size: 27px;
-  padding-left: 9px;
 }
 @media screen and (max-width: 768px){
   .titulo{
