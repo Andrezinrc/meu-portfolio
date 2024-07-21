@@ -93,7 +93,7 @@ html {
     margin: 0 auto;
 }
 .paragrafo{
-  color: white;
+  color: #4B0082;
   font-size: 25px;
 }
 .container-conteudo h1 {
@@ -121,7 +121,7 @@ html {
   margin: 0 auto;
 }
 .botao-conversa:hover{
-  background-color: #ffd700;
+  background-color: #d4af37;
 }
 .sobre-mim{
   width: 100%;
@@ -378,7 +378,7 @@ html {
 }
 
 .botao-saiba-mais:hover {
-  background-color: #ffd700;
+  background-color: #d4af37;
 }
 .projeto-titulo{
   text-align: center;
@@ -440,7 +440,7 @@ textarea{
   padding: 10px 12px;
 }
 .botao-enviar-mensagem:hover{
-  background-color: #ffd700;
+  background-color: #d4af37;
 }
 .copy{
   width: 100%;
@@ -456,6 +456,14 @@ textarea{
 .social {
   padding: 10px;
   background: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+.social a img{
+    width: 30px;
+    height: 30px;
+}
+.social a img:hover{
+    width: 35px;
+    height: 35px;
 }
 
 .copy p{
