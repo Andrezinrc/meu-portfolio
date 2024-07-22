@@ -307,16 +307,26 @@ html {
   gap: 10px;
   padding: 100px 50px;
 }
+.meus-servicos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
 .servico{
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
   height: 200px;
   border-radius: 10px;
   background-color: #1F1B24;
   color: white;
   text-align: center;
   font-size: 15px;
-  padding: 50px 10px !important;
   border: 0;
+  padding: 10px;
 }
 .servico h2{
   font-size: 20px;
@@ -347,15 +357,25 @@ html {
 }
 
 .projeto {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
   height: 200px;
   background-color: #fff;
-  padding: 50px 10px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
   border: 0;
+  padding: 10px;
 }
-
+.meus-projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
 .projeto h3 {
   margin-bottom: 10px;
   font-size: 20px;
@@ -584,9 +604,19 @@ textarea{
     padding: 100px 30px;
   }
 
+  .servico{
+    width: 100%;
+  }
+
+  .projeto{
+    width: 100%;
+  }
+
+
 .container-servicos {
   padding: 100px 30px;
 }
+
 .container-projetos {
   padding: 100px 30px;
 }
